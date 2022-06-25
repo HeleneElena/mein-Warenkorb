@@ -1,0 +1,240 @@
+body,
+html {
+    background-color: #F8F9F9;
+    height: 100%;
+}
+
+h3,
+h4 {
+    font-family: 'Merriweather', serif;
+
+}
+
+.header {
+    background: #FF902E;
+    margin-bottom: 80px;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.slider {
+    width: 1029px;
+    height: 442px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.slider-line {
+    height: 442px;
+    width: 4116px;
+    display: flex;
+    position: relative;
+    transition: all 2s ease;
+}
+
+.arrows {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.arrow-l {
+    position: absolute;
+    width: 96px;
+    height: 96px;
+    top: 20%;
+    left: 5%;
+}
+
+.arrow-r {
+    position: absolute;
+    width: 96px;
+    height: 96px;
+    top: 20%;
+    right: 5%;
+}
+
+.product-img {
+    width: 265px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.item-title {
+    font-size: 1.2rem;
+    font-weight: 500;
+    font-family: 'Merriweather', serif;
+    height: 70px;
+    color: #FFF;
+}
+
+.details-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 25px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card {
+    background: #4E5D79;
+}
+
+.items {
+    font-family: 'Merriweather', serif;
+    background: #f2ede7;
+    border-radius: 8px;
+    width: 120px;
+    display: flex;
+    font-size: 18px;
+    height: 30px;
+    overflow: hidden;
+}
+
+.items__control {
+    width: 40px;
+    cursor: pointer;
+    transition: 0.2s ease-in;
+    text-align: center;
+}
+
+.items__control:hover {
+    background: #eb5a1e;
+    color: #FFF;
+}
+
+.items__current {
+    width: 40px;
+}
+
+/* items--small */
+.items.items--small {
+    width: 90px;
+    font-size: 16px;
+    height: 26px;
+    text-align: center;
+}
+
+.items.items--small .items__control {
+    width: 30px;
+}
+
+.items.items--small .items__current {
+    width: 30px;
+}
+
+.price {
+    text-align: left;
+}
+
+.price__weight {
+    color: #6c757d;
+    font-size: 80%;
+    line-height: 1;
+}
+
+.price__currency {
+    font-size: 1.7rem;
+    font-weight: 600;
+    line-height: 1;
+    color: #fff;
+}
+
+.btn-outline-warning {
+    color: #fff;
+    border-color: #fff;
+}
+
+.btn-outline-warning:hover {
+    color: #FFF;
+    background-color: #eb5a1e;
+    border-color: #eb5a1e;
+}
+
+.cart-item__top {
+    display: flex;
+    align-items: flex-start;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #dee2e6;
+    margin-bottom: 15px;
+}
+
+.cart-item__img img {
+    max-width: 100px;
+    height: auto;
+}
+
+.cart-item__desc {
+    padding-top: 15px;
+    padding-left: 15px;
+}
+
+.cart-item__title {
+    font-family: 'Merriweather', serif;
+    font-size: 16px;
+    line-height: 1.2;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.product-img {
+    width: 176px;
+    height: 228px;
+}
+
+.cart-item__details {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.cart-item__details .price__currency {
+    font-size: 18px;
+    margin-left: 15px;
+    color: #FFF;
+}
+
+.card-title {
+    color: #FFF;
+    font-size: 1.5rem;
+}
+
+.cart-total {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.h5 {
+    color: #fff;
+    margin-left: 20px;
+}
+
+.free {
+    color: #FF902E;
+}
+
+.total-price {
+    color: #fff;
+}
+
+.euro {
+    color: #FF902E;
+}
+
+.none {
+    display: none;
+}
+
+.cart-item__title {
+    color: #fff;
+}
+
+.cart-item__details1 {
+    display: none;
+}
